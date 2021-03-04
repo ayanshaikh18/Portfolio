@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/timeline.css">
     <style>
-        a {
+        a,a:visited,a:hover {
             text-decoration: none;
         }
     </style>
@@ -25,29 +25,25 @@
             <div class="sidebar-header">
                 <div class="text-center">
                     <img src="images/img.jpg" class="ml-2" style="border:2px solid white;border-radius: 50%;"
-                        height="150" width="140">
+                        height="150" width="135">
                 </div>
                 <div class="h5 p-2">Mahammadayan Shaikh</div>
                 <div class="p-2 text-light">- Web Developer</div>
             </div>
             <ul class="list-unstyled components">
                 <li>
-                    <a href="/users/home">&nbsp;<i class="fa fa-home"></i> &nbsp;Home</a>
+                    <a href="index.html">&nbsp;<i class="fa fa-home"></i> &nbsp;Home</a>
                 </li>
                 <li>
-                    <a href="#projects">&nbsp;<i class="fa fa-user-plus"></i> &nbsp;Projects</a>
+                    <a href="#intro">&nbsp;<i class="fa fa-user" aria-hidden="true"></i>
+                        &nbsp;About Me</a>
                 </li>
                 <li>
-                    <a href="/blogs/">&nbsp;<i class="fa fa-book" aria-hidden="true"></i>
-                        &nbsp;Blogs</a>
+                    <a href="#projects">&nbsp;<i class="fa fa-file-code-o"></i> &nbsp;Projects</a>
                 </li>
                 <li>
-                    <a href="/users/viewProfile">&nbsp;<i class="fa fa-user" aria-hidden="true"></i>
-                        &nbsp;My Profile</a>
-                </li>
-                <li>
-                    <a href="/users/logout">&nbsp;<i class="fa fa-power-off" aria-hidden="true"></i>
-                        &nbsp;Logout</a>
+                    <a href="#graduation">&nbsp;<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                        &nbsp;Education</a>
                 </li>
             </ul>
         </nav>
@@ -62,28 +58,6 @@
 
                     <h5 class="text-center mt-auto"></h5>
                 </div>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown d-none d-xl-inline-block user-dropdown">
-                        <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown"
-                            aria-expanded="false">
-                            <!-- <img class="img-xs rounded-circle profile-pic" src="/uploads/{{ user.profilePicture }}"
-                                alt="Profile image"> -->
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
-                            <div class="dropdown-header text-center">
-                                <img class="img-md rounded-circle profile-pic" src="/uploads/{{ user.profilePicture }}"
-                                    alt="Profile image">
-                                <p class="mb-1 mt-3 font-weight-semibold">{{ user.username }}</p>
-                                <p class="font-weight-light text-muted mb-0">{{ user.email }}</p>
-                            </div>
-                            <a class="dropdown-item" href="/users/viewProfile">My Profile <span
-                                    class="badge badge-pill badge-danger">1</span><i
-                                    class="dropdown-item-icon ti-dashboard"></i></a>
-                            <a href="/users/logout" class="dropdown-item">Sign Out<i
-                                    class="dropdown-item-icon ti-power-off"></i></a>
-                        </div>
-                    </li>
-                </ul>
             </nav>
             <div class="main">
                 <div class="card shadow-lg" id="intro">
@@ -131,27 +105,87 @@
 
                 <div class="row mt-5">
                     <div class="col-sm-6">
-                        <div class="card shadow-lg">
+                        <div class="card shadow-lg" id="graduation">
                             <div class="card-header text-center bg-white">
                                 <h2 class="text-primary fw-bold">Education</h2>
                             </div>
                             <div class="card-body">
                                 <div class="row mt-4">
-                                    <div class="col-md-2 col-sm-1">
-                                        <img src="images/ddit.png" height="50" style="border-radius: 50%;">
+                                    <div class="col-md-3 col-sm-1">
+                                        <img src="images/ddit.png" height="60" style="border-radius: 50%;">
                                     </div>
-                                    <div class="col-md-10 col-sm-11">
+                                    <div class="col-md-9 col-sm-11">
                                         <h5 class="fw-bold mt-sm-4 mt-md-0">Dharmsinh Desai University, Nadiad</h5>
                                         <div class="text-muted">B.Tech(Computer Engineering)</div>
+                                        <div class="mt-1">
+                                            <h6>Current CPI :- 9.62/10</h6>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row mt-5">
-                                    <div class="col-md-2 col-sm-1">
-                                        <img src="images/rjj.webp" height="50" style="border-radius: 50%;">
+                                    <div class="col-md-3 col-sm-1">
+                                        <img src="images/rjj.webp" height="60" style="border-radius: 50%;">
                                     </div>
-                                    <div class="col-md-10 col-sm-9">
+                                    <div class="col-md-9 col-sm-9">
                                         <h5 class="fw-bold mt-sm-5 mt-md-0">Sett R.J.J. High School, Valsad</h5>
                                         <div class="text-muted">Higher Secondary</div>
+                                        <div class="mt-1">
+                                            <h6>Higher Secondary :- 89.9%</h6>
+                                        </div>
+                                        <div class="mt-1">
+                                            <h6>Secondary :- 93%</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mt-5 mt-md-0">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow-lg">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <h4 class="text-primary fw-bold">Programming Langauages</h4>
+                                        </div>
+                                        <hr>
+                                        <div class="bg-secondary badge">C</div>
+                                        <div class="bg-secondary badge">C++</div>
+                                        <div class="bg-secondary badge">JAVA</div>
+                                        <div class="bg-secondary badge">Python</div>
+                                        <div class="bg-secondary badge">C#</div>
+                                        <div class="bg-secondary badge">Javascript</div>
+                                        <div class="bg-secondary badge">SQL</div>
+                                        <div class="bg-secondary badge">HTML</div>
+                                        <div class="bg-secondary badge">CSS</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 col-sm-12">
+                                <div class="card shadow-lg">
+                                    <div class="card-body">
+                                        <div class="text-center">
+                                            <h4 class="text-primary fw-bold">Tools & Technologies</h4>
+                                        </div>
+                                        <hr>
+                                        <img class="p-2" title="Git" height="50"
+                                            src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" />
+                                        <img class="p-2" title="nodejs" height="50"
+                                            src="https://www.vectorlogo.zone/logos/nodejs/nodejs-horizontal.svg" />
+                                        <img class="p-2" title="expressjs" height="50"
+                                            src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" />
+                                        <img class="p-2" title="mysql" height="50"
+                                            src="https://www.vectorlogo.zone/logos/mysql/mysql-horizontal.svg" />
+                                        <img class="p-2" title="angular" height="50"
+                                            src="https://www.vectorlogo.zone/logos/angular/angular-icon.svg" />
+                                        <img class="p-2" title="mongodb" height="50"
+                                            src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" />
+                                        <img class="p-2" title="ASP.net" height="50"
+                                            src="https://www.vectorlogo.zone/logos/dotnet/dotnet-ar21.svg">
+                                        <img class="p-2" title="Django" height="50"
+                                            src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg">
+                                        <img class="p-2" title="PHP" height="50"
+                                            src="https://www.vectorlogo.zone/logos/php/php-ar21.svg">
                                     </div>
                                 </div>
                             </div>
@@ -163,6 +197,7 @@
                 <div class="mt-5 text-center">
                     <h2 class="text-primary fw-bolder">Projects Done By Me</h2>
                 </div>
+                <br>
                 <div class="timeline">
                     <br><br>
                     <div class="t-container left">
@@ -194,6 +229,19 @@
                     </div>
                     <div class="t-container left">
                         <div class="t-content">
+                            <h3>University Portal🏫</h2>
+                                <p>
+                                    This is an online University application implemented using ASP.net core MVC & SQL
+                                    Server database.
+                                    It provides the stock or inventory management functionality to Users. Users can
+                                    manage their stocks of items.
+                                </p>
+                                <a href="https://github.com/ayanshaikh18/Stock-Management" class="text-primary">View On
+                                    Github</a>
+                        </div>
+                    </div>
+                    <div class="t-container right">
+                        <div class="t-content">
                             <h3>Online Stock Management(PHP)🗠</h2>
                                 <p>
                                     This is an online stock management application implemented using PHP & MySQL
@@ -205,7 +253,7 @@
                                     Github</a>
                         </div>
                     </div>
-                    <div class="t-container right">
+                    <div class="t-container left">
                         <div class="t-content">
                             <h3>Online Stock Management(Django)🗠</h2>
                                 <p>
@@ -217,7 +265,7 @@
                                     class="text-primary">View On Github</a>
                         </div>
                     </div>
-                    <div class="t-container left">
+                    <div class="t-container right">
                         <div class="t-content">
                             <h3>Smart Contact Manager(WCF)📞</h2>
                                 <p>
@@ -228,7 +276,7 @@
                                     class="text-primary">View On Github</a>
                         </div>
                     </div>
-                    <div class="t-container right">
+                    <div class="t-container left">
                         <div class="t-content">
                             <h3>Smart Contact Manager(Web API)📞</h2>
                                 <p>
@@ -239,7 +287,7 @@
                                     class="text-primary">View On Github</a>
                         </div>
                     </div>
-                    <div class="t-container left">
+                    <div class="t-container right">
                         <div class="t-content">
                             <h3>Tic Tac Toe❌</h2>
                                 <p>
