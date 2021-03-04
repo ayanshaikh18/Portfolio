@@ -32,17 +32,17 @@
             </div>
             <ul class="list-unstyled components">
                 <li>
-                    <a href="index.html">&nbsp;<i class="fa fa-home"></i> &nbsp;Home</a>
+                    <a href="index.html" class="dismiss">&nbsp;<i class="fa fa-home"></i> &nbsp;Home</a>
                 </li>
                 <li>
-                    <a href="#intro">&nbsp;<i class="fa fa-user" aria-hidden="true"></i>
+                    <a href="#intro" class="dismiss">&nbsp;<i class="fa fa-user" aria-hidden="true"></i>
                         &nbsp;About Me</a>
                 </li>
                 <li>
-                    <a href="#projects">&nbsp;<i class="fa fa-file-code-o"></i> &nbsp;Projects</a>
+                    <a href="#projects" class="dismiss">&nbsp;<i class="fa fa-file-code-o"></i> &nbsp;Projects</a>
                 </li>
                 <li>
-                    <a href="#graduation">&nbsp;<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <a href="#graduation" class="dismiss">&nbsp;<i class="fa fa-graduation-cap" aria-hidden="true"></i>
                         &nbsp;Education</a>
                 </li>
             </ul>
@@ -331,7 +331,7 @@
                 $('.collapse.in').toggleClass('in');
             });
 
-            $('#dismiss, .overlay').on('click', function () {
+            $('#dismiss, .overlay,.dismiss').on('click', function () {
                 // hide sidebar
                 $('#sidebar').removeClass('active');
                 // hide overlay
