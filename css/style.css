@@ -175,6 +175,9 @@ a.article:hover {
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
+    .navbar-brand{
+        margin-left: 0px !important;
+    }
     #projects{
         padding: 0px !important;
     }
@@ -264,6 +267,9 @@ a.article:hover {
 }
 
 @media (max-width: 991px) {
+    .navbar-brand{
+        margin-left: 200px;
+    }
     .footer {
         margin-left: 0;
         width: 100%;
