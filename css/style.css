@@ -4,11 +4,6 @@
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
-/* body {
-  font-family: "Poppins", sans-serif;
-  background: #fafafa;
-} */
-
 body {
     font-family: "Poppins", sans-serif;
     background: #F3F3F3
@@ -163,7 +158,7 @@ a.article:hover {
 }
 
 .main {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
 }
 
 #content.active {
@@ -172,12 +167,17 @@ a.article:hover {
 #dismiss{
     display: none;
 }
-
+#projects{
+    padding: 40px;
+}
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
+    #projects{
+        padding: 0px !important;
+    }
     #intro{
         width: 100% !important;
     }
@@ -266,6 +266,9 @@ a.article:hover {
     .footer {
         margin-left: 0;
         width: 100%;
+    }
+    #projects{
+        padding: 40px;
     }
 }
 
