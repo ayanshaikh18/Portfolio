@@ -186,12 +186,13 @@ a.article:hover {
     }
     #sidebar {
         margin-left: -270px;
-        position: fixed;
+        position: fixed !important;
     }
 
     #sidebar.active {
         margin-left: 0;
         overflow: visible;
+        position: fixed !important;
     }
 
     #content {
