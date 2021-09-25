@@ -1,0 +1,144 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px !important;
+}
+
+.font-oswald,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px !important;
+}
+
+nav * {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px !important;
+}
+
+@media only screen and (min-width: 490px) and (max-width: 690px) {
+  .navbar-brand {
+    justify-content: center !important;
+    margin-left: 20% !important;
+    margin-right: 35% !important;
+  }
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  font-size: 15px !important;
+}
+
+@media only screen and (max-width: 450px) {
+  .navbar-brand {
+    /* margin-left: 10% !important; */
+    margin-right: 23% !important;
+    /* font-size: 10px !important; */
+  }
+  .h1 {
+    font-size: 27px !important;
+  }
+  .h2 {
+    font-size: 25px !important;
+  }
+  .h3 {
+    font-size: 23px !important;
+  }
+  .h4 {
+    font-size: 21px !important;
+  }
+  .h5 {
+    font-size: 19px !important;
+  }
+  .h6 {
+    font-size: 17px !important;
+  }
+}
+
+.nav-link {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding: 5px !important;
+}
+
+.nav-link:hover {
+  background-color: #000;
+  color: #fff !important;
+}
+
+@media only screen and (min-width: 490px) {
+  .nav-link.active {
+    border-bottom: 2px solid #000 !important;
+  }
+}
+
+#designation::before {
+  content: "Computer Engineer.";
+  animation: animate infinite 5s;
+  color: #007aff;
+}
+
+@keyframes animate {
+  0% {
+    content: "Web Developer.";
+  }
+  50% {
+    content: "Computer Engineer.";
+  }
+  100% {
+    content: "Web Developer.";
+  }
+}
+
+.fa,
+.fa:hover {
+  text-decoration: none;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7 !important;
+}
+
+.fa-twitter {
+  color: #55acee;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-instagram {
+  color: #e1306c;
+}
+
+.fa-github {
+  color: #333;
+}
+
+.fa-envelope {
+  color: #ea4335;
+}
+
+.unordered-list {
+  margin-left: -20px !important;
+  position: relative;
+}
+.unordered-list li:nth-child(2) {
+  margin-top: 10px;
+}
+
+.bullet {
+  font-weight: normal;
+  margin-left: 0px !important;
+  position: relative;
+}
