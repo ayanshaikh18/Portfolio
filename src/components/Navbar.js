@@ -15,9 +15,9 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <a className="navbar-brand" href="/">
+        <NavLink className="navbar-brand" to="/home">
           Mahammadayan Shaikh
-        </a>
+        </NavLink>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav ml-auto mr-sm-5 mt-2 mt-lg-0">
