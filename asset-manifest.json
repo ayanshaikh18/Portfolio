@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9bbfa13d.chunk.css",
+    "main.js": "./static/js/main.5be0c632.chunk.js",
+    "main.js.map": "./static/js/main.5be0c632.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b518e85b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b518e85b.js.map",
+    "static/js/2.69eef9c6.chunk.js": "./static/js/2.69eef9c6.chunk.js",
+    "static/js/2.69eef9c6.chunk.js.map": "./static/js/2.69eef9c6.chunk.js.map",
+    "static/js/3.acdcf2f0.chunk.js": "./static/js/3.acdcf2f0.chunk.js",
+    "static/js/3.acdcf2f0.chunk.js.map": "./static/js/3.acdcf2f0.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.9bbfa13d.chunk.css.map": "./static/css/main.9bbfa13d.chunk.css.map",
+    "static/js/2.69eef9c6.chunk.js.LICENSE.txt": "./static/js/2.69eef9c6.chunk.js.LICENSE.txt",
+    "static/media/AssessmentSystem.8b147af0.png": "./static/media/AssessmentSystem.8b147af0.png",
+    "static/media/Cricscore.a3ec06c2.jpg": "./static/media/Cricscore.a3ec06c2.jpg",
+    "static/media/InstaClone.db8d210d.png": "./static/media/InstaClone.db8d210d.png",
+    "static/media/Mahammadayan_Shaikh_Resume.f7fdad43.pdf": "./static/media/Mahammadayan_Shaikh_Resume.f7fdad43.pdf",
+    "static/media/MusicPlayer.e5c64a73.png": "./static/media/MusicPlayer.e5c64a73.png",
+    "static/media/Portal.2f9d7551.png": "./static/media/Portal.2f9d7551.png",
+    "static/media/QnA.728ff2ae.png": "./static/media/QnA.728ff2ae.png",
+    "static/media/RJJ.91b6b8b6.webp": "./static/media/RJJ.91b6b8b6.webp",
+    "static/media/SnakeGame.673d1ba5.png": "./static/media/SnakeGame.673d1ba5.png",
+    "static/media/TicTacToe.88128f36.png": "./static/media/TicTacToe.88128f36.png",
+    "static/media/workation.a897a94d.jpg": "./static/media/workation.a897a94d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b518e85b.js",
+    "static/js/2.69eef9c6.chunk.js",
+    "static/css/main.9bbfa13d.chunk.css",
+    "static/js/main.5be0c632.chunk.js"
+  ]
+}
