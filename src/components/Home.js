@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-import my_img from "../assets/images/ayan3.jpg";
+import my_img from "../assets/images/workation.jpg";
 
 const MyImg = styled.img`
   padding: 10px;
   margin: 20px;
   position: relative;
-  width: 75%;
-  height: 90%;
+  width: 100%;
+  height: 95%;
   @media only screen and (min-width: 490px) {
     border-radius: 55px;
   }
@@ -22,8 +22,7 @@ const Home = () => {
       </div>
       <div className="col-sm-6">
         <div className="h1 mt-5">
-          Hello, I am Mahammadayan Shaikh, Student at Dharmsinh Desai
-          University. <br />
+          Hello, I am Mahammadayan Shaikh, Software Engineer at Ignosi Systems Pvt. Ltd. <br />
         </div>
         <div className="h3 mt-5">
           I'm a <span id="designation"></span>

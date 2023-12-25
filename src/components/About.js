@@ -12,13 +12,14 @@ const About = () => {
         <div className="col-sm-12">
           <div className="h3">Little Bit About Myself</div>
           <p className="mt-3">
-            I am final year student currently pursuing my B Tech. degree in
-            Computer Engineering. I am from Valsad city located in South
-            Gujarat. Web Development is my main field of Interest. I have also
-            worked with Machine Learning & Mobile Application Development. I
-            like to create interesting applications. Apart from technologies, I
-            love playing & watching sports, specially cricket. I also like
-            watching Movies & web series for entertainment and relaxation.
+            I am a software engineer with 3 year of experience (Including Internships) in the development of applications
+            using Java, Spring Boot, React JS, PostgreSQL, Redis, AWS, Python, Django.
+
+            <br /><br />
+            I have done my bachelors in the field of Computer Engineering from the Dharmsinh Desai University, Nadiad in the year 2022.
+
+            <br /><br />
+            Apart from technologies, I love playing & watching sports like cricket, table tennis & badminton.
           </p>
         </div>
       </div>
@@ -32,8 +33,31 @@ const About = () => {
       <div className="row mt-3">
         <div className="col-sm-12">
           <div className="card card-body mb-3 shadow-sm">
-            <div className="h4">Fintech Pirimid - SDE Intern</div>
-            <div className="h6 text-muted">August 2021 - present </div>
+            <div className="h4">Ignosi Systems Pvt. Ltd. - Software Engineer</div>
+            <div className="h6 text-muted">June 2023 - Present </div>
+            <ul className="unordered-list mt-4">
+              <li>
+                Working as Full Stack Software Engineer with the technologies like Java, Spring Boot, Redis, PostgreSQL, ReactJs, AWS Cloud, etc.
+              </li>
+              <li>
+                Working on a product which enables Financial Entites
+                like Banks & NBFCs to the Digital Secure method of Financial Data sharing using an RBI governed Account Aggregator Framework.
+              </li>
+            </ul>
+          </div>
+          <div className="card card-body mb-3 shadow-sm">
+            <div className="h4">Pirimid Fintech - SDE Intern</div>
+            <div className="h6 text-muted">August 2021 - May 2022 </div>
+            <ul className="unordered-list mt-4">
+              <li>
+                Learnt & understood about various tools & technologies required for the software development
+                like git, java, Spring Boot, Javascript, React JS.
+              </li>
+              <li>
+                Designed, implemented & tested easily integrable Backend REST APIs from the scratch for the assigned project.
+                Took ownership for the project by constanly involving myself in the Development, Testing and release Lifecycle of the project.
+              </li>
+            </ul>
           </div>
           <div className="card card-body shadow-sm">
             <div className="h4">
